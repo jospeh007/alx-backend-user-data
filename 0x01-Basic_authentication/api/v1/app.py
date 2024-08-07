@@ -2,7 +2,7 @@
 """
 Route module for the API
 """
-from jinja2 import Markup
+from markupsafe import Markup
 from os import getenv
 from api.v1.views import app_views
 from flask import Flask, jsonify, abort, request
